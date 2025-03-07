@@ -1,7 +1,7 @@
 from flask import Flask, request
 import telebot
 from openai import OpenAI
-
+import { Analytics } from "@vercel/analytics/react"
 app = Flask(__name__)
 bot = telebot.TeleBot("7259483767:AAHHOlf8GvucCs9d7f8leXvzI0o7TjQrjHE")
 client = OpenAI(api_key="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")
