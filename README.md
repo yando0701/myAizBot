@@ -1,0 +1,2 @@
+# myAizBot
+myAizBot
