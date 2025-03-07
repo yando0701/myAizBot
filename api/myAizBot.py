@@ -28,5 +28,5 @@ def webhook():
 
 if __name__ == '__main__':
     bot.remove_webhook()
-    bot.set_webhook(url="YOUR_VERCEL_URL/webhook")
+    bot.set_webhook(url="https://my-aiz-bot.vercel.app/webhook")
     app.run()
