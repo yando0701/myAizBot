@@ -1,14 +1,14 @@
 {  
   "builds": [  
     {  
-      "src": "api/myAizBot.py",  
+      "src": "/(.*)",  
       "use": "@vercel/python"  
     }  
   ],  
   "routes": [  
     {  
       "src": "/(.*)",  
-      "dest": "api/myAizBot.py"  
+      "dest": "myAizBot.py"  
     }  
   ]  
 }  
