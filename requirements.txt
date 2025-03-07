@@ -1,4 +1,4 @@
-Flask==2.0.1
+# Flask==2.0.1
 #Flask==3.0.2  
 #python-telegram-bot==13.7  # 20.x 대신 13.x 버전 사용 (동기식 코드 호환)  
 # openai==1.30.1  
